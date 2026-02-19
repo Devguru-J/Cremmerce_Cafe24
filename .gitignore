@@ -1,0 +1,6 @@
+# VS Code SFTP 설정 (비밀번호 포함)
+.vscode/
+
+# OS
+.DS_Store
+Thumbs.db
