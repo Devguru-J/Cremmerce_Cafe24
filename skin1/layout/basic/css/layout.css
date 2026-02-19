@@ -269,7 +269,9 @@ a:hover {text-decoration:none;}
 	#footer .inner .bt_logo img {max-width:200px;max-height:30px;}
 
 	/* 하단 정보 */
-	#footer .tablet_fold {display:none;width:100%;max-width:none;}
+	#footer .tablet_fold {display:block !important;width:100%;max-width:none;}
+	.bt_top ul > li .bt_dummy {display:none !important;}
+	.bt_top ul > li .icon[class*="icoPlus"] {display:none !important;}
 	.bt_top {width:100%;flex-direction:column;}
 	.bt_top > ul {flex-direction:column;}
 	.bt_top > ul > li {display:flex !important;flex-wrap:wrap;justify-content:space-between;margin-left:0;margin-bottom:20px;position:relative;}
