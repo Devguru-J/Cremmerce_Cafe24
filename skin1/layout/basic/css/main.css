@@ -38,7 +38,7 @@
 .main_product_category .main_product_inner .main_product_tab {display:flex; flex-direction: column; margin-top: 62px; width: 82%;}
 .main_product_category .main_product_inner .main_product_tab li {padding:5.6% 4%; margin-bottom: 14px; font-size: 16px;letter-spacing: 0.1em;color: #999;font-weight: 400;}
 .main_product_category .main_product_inner .main_product_tab li .button {font-size: 16px;letter-spacing: 0.1em;color: #999;font-weight: 400;white-space:nowrap;}
-.main_product_category .main_product_inner .main_product_tab li.active {background-color: #f4f4f4;}
+.main_product_category .main_product_inner .main_product_tab li.active {background-color: #EBE9E1;}
 .main_product_category .main_product_inner .main_product_tab li.active,
 .main_product_category .main_product_inner .main_product_tab li.active .button {color:#333;}
 .main_product_category .tabcontent {display:none;}
