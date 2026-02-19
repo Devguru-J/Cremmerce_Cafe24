@@ -664,6 +664,9 @@ div.ec-base-help ul {margin:0;}
 }
 
 @media screen and (max-width:1024px) {
+	/* 상품 상세 이미지 슬라이더 페이지네이션 배경 제거 */
+	.ec-base-paginate.typeSwipe {background:transparent !important;}
+
 	/* 상품진열 */
 	.ec-base-product .prdList > li:hover .thumbnail {box-shadow: none;}
 
