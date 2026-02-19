@@ -35,7 +35,7 @@ a:hover {text-decoration:none;}
 .main_top_banner .top_banner_box_inner .top_banner_close .icon {cursor:pointer;}
 
 /* 상단 */
-#header {width:100%;margin:0 auto;padding:0;background:#fff;position:relative;z-index:998;box-sizing:border-box;-webkit-box-sizing:border-box;-moz-box-sizing:border-box;border-bottom:1px solid #e8e8e8;}
+#header {width:100%;margin:0 auto;padding:0;background:#fff;position:relative;z-index:998;box-sizing:border-box;-webkit-box-sizing:border-box;-moz-box-sizing:border-box;border-bottom:1px solid #e8e8e8;transition:transform 0.35s ease;}
 #header .inner {max-width:1680px;width:92%;margin:0 auto;padding:0;display:flex;align-items:center;flex-direction:column;}
 #header .inner .toparea {width:100%;height:50px;margin-bottom:20px;display:flex;justify-content:space-between;align-items:center;transform: translateY(0);position: relative;z-index: 2;}
 #header .inner .toparea .toparea_shoppinginfo {display:flex;align-items:center;}
