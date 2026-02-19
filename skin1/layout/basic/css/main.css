@@ -193,6 +193,9 @@
 	.main_image_text_gallery .main_title {margin-bottom:25px;}
 	.main_image_text_gallery .main_3dan_banner ul {flex-direction:column;justify-content:flex-start;flex-wrap:nowrap;margin:0 !important;width:100% !important;}
 	.main_image_text_gallery .main_3dan_banner ul li {margin:0 0 35px 0;padding:0;max-width:100%;width:100%;flex:1;}
+	/* 이달의 크리에이터 2열 */
+	.section[data-ez="contents-12r96jd-1"] .main_3dan_banner ul {flex-direction:row;flex-wrap:wrap;margin:0 -8px !important;width:calc(100% + 16px) !important;}
+	.section[data-ez="contents-12r96jd-1"] .main_3dan_banner ul li {width:50%;max-width:50%;flex:0 1 50%;padding:0 8px;margin:0 0 24px;}
 	.main_image_text_gallery .main_3dan_banner ul li a .main_banner_txt {margin-top:20px;}
 	.main_image_text_gallery .main_3dan_banner ul li a .main_banner_txt .main_banner_more {margin-top:10px;}
 	.main_image_text_gallery .main_3dan_banner ul li a picture img {width:100%;}
