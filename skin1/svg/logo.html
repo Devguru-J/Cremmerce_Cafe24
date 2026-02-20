@@ -1,0 +1,42 @@
+<span class="logo-morph" role="img" aria-label="CREMMERCE">
+<span class="lk" style="--ai:0s">C</span><span class="lk" style="--ai:.05s">R</span><span class="lk" style="--ai:.1s">E</span><span class="lg" style="--ai:.15s;--di:1.6s">A</span><span class="lg" style="--ai:.2s;--di:1.7s">T</span><span class="lg" style="--ai:.25s;--di:1.8s">O</span><span class="lg" style="--ai:.3s;--di:1.9s">R</span><span class="lg" style="--ai:.35s;--di:2s">+</span><span class="lg" style="--ai:.4s;--di:2.1s">E</span><span class="lg" style="--ai:.45s;--di:2.2s">C</span><span class="lg" style="--ai:.5s;--di:2.3s">O</span><span class="lk" style="--ai:.55s">M</span><span class="lk" style="--ai:.6s">M</span><span class="lk" style="--ai:.65s">E</span><span class="lk" style="--ai:.7s">R</span><span class="lk" style="--ai:.75s">C</span><span class="lk" style="--ai:.8s">E</span>
+</span>
+<style>
+.logo-morph {
+    font-family: 'Raleway', Arial, sans-serif;
+    font-size: 40px;
+    font-weight: 500;
+    color: #1a1a1a;
+    display: inline-flex;
+    align-items: baseline;
+    line-height: 1;
+}
+.logo-morph .lk {
+    margin-right: 2px;
+    animation: logoIn 0.4s ease var(--ai) both;
+}
+.logo-morph .lg {
+    overflow: hidden;
+    max-width: 1.2em;
+    margin-right: 2px;
+    animation:
+        logoIn 0.4s ease var(--ai) both,
+        logoOut 0.7s ease var(--di) forwards;
+}
+@keyframes logoIn {
+    from { opacity: 0; transform: translateY(10px); }
+    to   { opacity: 1; transform: translateY(0); }
+}
+@keyframes logoOut {
+    0%   { opacity: 1; max-width: 1.2em; margin-right: 2px; }
+    45%  { opacity: 0; max-width: 1.2em; margin-right: 2px; }
+    100% { opacity: 0; max-width: 0;     margin-right: 0;   }
+}
+@media screen and (max-width: 1024px) {
+    .logo-morph { font-size: 25px; }
+}
+@media (prefers-reduced-motion: reduce) {
+    .logo-morph .lk { animation: none; opacity: 1; }
+    .logo-morph .lg { display: none; }
+}
+</style>
