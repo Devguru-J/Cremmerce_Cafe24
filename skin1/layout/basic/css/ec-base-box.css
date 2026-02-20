@@ -8,7 +8,7 @@
 .ec-base-box.typeThinBg { border-width:1px; border-color:#d7d5d5; background-color:#fbfafa; }
 .ec-base-box.center { text-align:center; }
 .ec-base-box .headDesc { margin:0 0 40px; font-size:16px; line-height:22px; color:var(--font-color-heading); }
-    .ec-base-box.typeThin > .agree { color:#6d6d6d; font-size:12px; line-height:20px; background:#fff; }
+    .ec-base-box.typeThin > .agree { color:#6d6d6d; font-size:12px; line-height:20px; background:#F6F5F1; }
     .ec-base-box.typeThin > .agree p { padding:0 0 30px; }
 
 /* typeMember */

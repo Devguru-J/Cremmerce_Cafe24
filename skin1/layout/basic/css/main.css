@@ -10,7 +10,7 @@
 /* 메인 타이틀 */
 .main_title {flex-shrink:0;}
 .main_title .main_title_txt01 {font-size:32px;font-weight:400;line-height:1;color:#333; letter-spacing: 0.1em;flex-basis:auto;word-break:keep-all;}
-.main_title .main_title_txt02 {font-size:16px;font-weight:300;line-height:1;color:#616161;margin-top:15px;letter-spacing: 0.15em;word-break:keep-all;overflow-wrap:break-word;}
+.main_title .main_title_txt02 {font-size:16px;font-weight:300;line-height:1.2;color:#616161;margin-top:15px;letter-spacing: 0.15em;word-break:keep-all;overflow-wrap:break-word;}
 .main_title.ez-align-left {text-align:left;justify-content:flex-start;}
 .main_title.ez-align-center {text-align:center;justify-content:center;}
 .main_title.ez-align-right {text-align:right;justify-content:flex-end;}
