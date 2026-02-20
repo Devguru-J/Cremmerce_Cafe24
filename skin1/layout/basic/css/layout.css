@@ -67,7 +67,7 @@ a:hover {text-decoration:none;}
 
 /* 상단 메뉴 */
 #header .inner .top_nav_box {position: relative; width:100%;height:auto;display:flex; flex-wrap: wrap; align-items:center;}
-#header .inner .top_nav_box .top_logo {position: absolute; top: 0; left: 50%; transform: translateX(-50%); flex-shrink:0; height: 30px; display: flex; align-items: center;}
+#header .inner .top_nav_box .top_logo {position: absolute; top: 0; left: 50%; transform: translateX(-50%); flex-shrink:0; height: 30px; display: flex; align-items: center; transition: transform 0.35s ease, top 0.35s ease;}
 #header .inner .top_nav_box .top_logo a {display:flex;justify-content:center;align-items:center;font-size:40px;line-height:1;}
 #header .inner .top_nav_box .top_logo img {max-width:400px;max-height:60px;}
 #header .inner .top_nav_box div[data-ez-module='menu-main/1'] {width:100%;}
@@ -350,6 +350,22 @@ a:hover {text-decoration:none;}
     .RTB { display:none !important; }
     .RTMI { display:none !important; }
     .RTMB { display:none !important; }
+
+    /* 고정 헤더 전환 애니메이션 (transition은 항상 선언) */
+    #header .inner .top_nav_box .top_mypage {transition: height 0.35s ease, margin-top 0.35s ease;}
+    #header .inner .top_nav_box .top_category {transition: margin-top 0.35s ease;}
+    #header .inner .top_nav_box .top_category > ul > li {transition: height 0.35s ease;}
+    #header .inner .top_nav_box .top_category > ul > li > a {transition: line-height 0.35s ease;}
+
+    /* 고정 헤더 상태: 제목 축소 + 메뉴 따라오기 + 상하 여백 동일 */
+    /* translateY(-50px): toparea(50px) 숨김, toparea margin(20px)이 자연스러운 상단 여백으로 사용 */
+    /* top_nav_box는 viewport y=20에서 시작 → 로고 top:0, 아이콘도 y=20부터 시작 (잘림 없음) */
+    #header.fixed .inner .top_nav_box {padding-bottom:0;}
+    #header.fixed .inner .top_nav_box .top_logo {transform:translateX(-50%) scale(0.6); top:0;}
+    #header.fixed .inner .top_nav_box .top_mypage {height:20px; margin-top:0;}
+    #header.fixed .inner .top_nav_box .top_category {margin-top:14px;}
+    #header.fixed .inner .top_nav_box .top_category > ul > li {height:28px;}
+    #header.fixed .inner .top_nav_box .top_category > ul > li > a {line-height:28px; font-size:14px;}
 }
 
 /********************* PC *********************/

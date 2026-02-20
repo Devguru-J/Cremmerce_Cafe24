@@ -30,7 +30,7 @@ input[type="checkbox"]:checked::-ms-check {background:url('/SkinImg/img/checkbox
 
 /* tab */
 .ec-base-tab.typeNav .menu {border-bottom:1px solid #1a1a1a;}
-.ec-base-tab.typeNav .menu li a {background:#fff;border:0;color:#8a8a8a;min-width:170px;}
+.ec-base-tab.typeNav .menu li a {background:#F6F5F1;border:0;color:#8a8a8a;min-width:170px;}
 .ec-base-tab.typeNav .menu li.selected a {border:1px solid #1a1a1a;font-weight:400;}
 .ec-base-tab.typeNav .menu li.selected a:after {bottom:-2px;height:2px;}
 
